@@ -1,6 +1,4 @@
 from bs4 import BeautifulSoup
-import requests
-import re
 from messenger import send_alert
 
 phases = ['https://forward.ny.gov/phase-two-industries', 'https://forward.ny.gov/phase-three-industries',
