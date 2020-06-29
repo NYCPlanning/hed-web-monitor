@@ -3,7 +3,7 @@ import smtplib
 def send_alert(text, weblink, change):
     
     user = 'tedudevelop@gmail.com'
-    password =  $APP_SECRET
+    password = $APP_SECRET
     
     sent_from = 'tedudevelop@gmail.com'
     to = ['tedudevelop@gmail.com', 'tdu@planning.nyc.gov', 'NMOORE@planning.nyc.gov', 'DSandler@planning.nyc.gov']
