@@ -1,9 +1,9 @@
 import smtplib
 
-def send_alert(text, weblink, change):
+def send_alert(text, weblink, change, secret):
     
     user = 'tedudevelop@gmail.com'
-    password = $APP_SECRET
+    password = secret
     
     sent_from = 'tedudevelop@gmail.com'
     to = ['tedudevelop@gmail.com', 'tdu@planning.nyc.gov', 'NMOORE@planning.nyc.gov', 'DSandler@planning.nyc.gov']
