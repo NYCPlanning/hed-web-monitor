@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from messenger import send_alert
 import sys
 import requests
+import json
 
 phases = ['https://forward.ny.gov/phase-two-industries', 'https://forward.ny.gov/phase-three-industries',
                 'https://forward.ny.gov/phase-four-industries']
